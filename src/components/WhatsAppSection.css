@@ -1,0 +1,66 @@
+.wa-section {
+    padding-bottom: 8rem;
+}
+
+.wa-card {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+    position: relative;
+    overflow: hidden;
+    border-color: rgba(37, 211, 102, 0.3);
+    /* WhatsApp green hint */
+}
+
+.wa-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at center, rgba(37, 211, 102, 0.08), transparent 60%);
+    pointer-events: none;
+}
+
+.wa-icon-wrapper {
+    color: #25D366;
+    /* WhatsApp Green */
+    margin-bottom: 2rem;
+    display: inline-block;
+    background: rgba(37, 211, 102, 0.1);
+    padding: 1.5rem;
+    border-radius: 50%;
+    box-shadow: 0 0 30px rgba(37, 211, 102, 0.2);
+}
+
+.wa-title {
+    font-size: 2.5rem;
+    color: var(--text-primary);
+    margin-bottom: 1rem;
+}
+
+.wa-desc {
+    font-size: 1.125rem;
+    color: var(--text-secondary);
+    max-width: 600px;
+    margin: 0 auto 2.5rem;
+    line-height: 1.6;
+}
+
+.wa-btn {
+    background: #25D366;
+    color: white;
+    box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4);
+}
+
+.wa-btn:hover {
+    background: #128C7E;
+    box-shadow: 0 8px 30px rgba(37, 211, 102, 0.6);
+}
+
+@media (max-width: 768px) {
+    .wa-title {
+        font-size: 2rem;
+    }
+}
