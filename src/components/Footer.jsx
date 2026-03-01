@@ -30,12 +30,6 @@ const Footer = () => {
                             <a href="#" className="social-icon" aria-label="Instagram">
                                 <Instagram size={20} />
                             </a>
-                            <a href="#" className="social-icon" aria-label="Github">
-                                <Github size={20} />
-                            </a>
-                            <a href="#" className="social-icon" aria-label="Twitter">
-                                <Twitter size={20} />
-                            </a>
                         </div>
                     </div>
                 </div>
