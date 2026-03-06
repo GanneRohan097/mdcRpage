@@ -1,6 +1,120 @@
 .wa-section {
     padding-bottom: 8rem;
+    background: none;
+    position: relative;
+    z-index: 1;
 }
+
+.carousel-wrapper {
+    background: none;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 4rem;
+    overflow: hidden;
+    width: 100%;
+}
+
+.eb-carousel {
+    width: 100%;
+    padding: 20px;
+    background: none;
+    overflow: hidden;
+    position: relative;
+}
+
+
+
+.eb-carousel-track {
+    background: none;
+    display: flex;
+    gap: 1.5rem;
+    width: max-content;
+    animation: scroll-carousel 30s linear infinite;
+}
+
+.eb-carousel-track:hover {
+    animation-play-state: paused;
+}
+
+@keyframes scroll-carousel {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(calc(-50% - 0.75rem));
+    }
+}
+
+.eb-card {
+    min-width: 260px;
+    flex-shrink: 0;
+    text-align: center;
+    padding: 2.5rem 1.5rem;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    background: rgba(15, 30, 80, 0.4);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 1.5rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    position: relative;
+    overflow: hidden;
+}
+
+.eb-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, rgba(255,255,255,0.05) 0%, transparent 100%);
+    pointer-events: none;
+}
+
+.eb-card:hover {
+    transform: translateY(-12px) scale(1.02);
+    border-color: rgba(112, 150, 209, 0.5);
+    box-shadow: 0 20px 40px rgba(112, 150, 209, 0.2), 0 0 20px rgba(112, 150, 209, 0.1);
+    background: rgba(20, 40, 100, 0.6);
+}
+
+.eb-image {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto 1.5rem;
+    border: 3px solid rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+    transition: all 0.4s ease;
+}
+
+.eb-card:hover .eb-image {
+    transform: scale(1.08);
+    border-color: var(--accent-primary);
+    box-shadow: 0 10px 30px rgba(112, 150, 209, 0.4);
+}
+
+.eb-name {
+    font-size: 1.35rem;
+    color: var(--text-primary);
+    margin-bottom: 0.4rem;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
+
+.eb-role {
+    font-size: 0.9rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    opacity: 0.9;
+}
+
+
 
 .wa-card {
     max-width: 800px;
@@ -9,7 +123,10 @@
     position: relative;
     overflow: hidden;
     border-color: rgba(37, 211, 102, 0.3);
-    /* WhatsApp green hint */
+}
+
+.mt-4 {
+    margin-top: 4rem;
 }
 
 .wa-card::before {
@@ -25,7 +142,6 @@
 
 .wa-icon-wrapper {
     color: #25D366;
-    /* WhatsApp Green */
     margin-bottom: 2rem;
     display: inline-block;
     background: rgba(37, 211, 102, 0.1);
@@ -51,16 +167,29 @@
 .wa-btn {
     background: #25D366;
     color: white;
+    border: none;
     box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4);
 }
 
 .wa-btn:hover {
     background: #128C7E;
+    color: white;
     box-shadow: 0 8px 30px rgba(37, 211, 102, 0.6);
 }
 
 @media (max-width: 768px) {
     .wa-title {
         font-size: 2rem;
+    }
+    
+    .eb-card {
+        min-width: 240px;
+        padding: 2rem 1.25rem;
+    }
+    
+    .eb-image {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 1rem;
     }
 }

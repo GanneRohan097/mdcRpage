@@ -79,7 +79,7 @@ const DomainsSection = () => {
                     ))}
                 </div>
 
-                <div className="domains-grid">
+                <div className={`domains-grid ${activeTab === 'Creative' ? 'creative-grid' : ''}`}>
                     {domainsData[activeTab].map((domain, index) => (
                         <div className="domain-card glass-panel" key={index}>
                             <div className="domain-content">

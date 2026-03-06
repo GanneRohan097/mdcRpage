@@ -56,6 +56,10 @@
     animation: fade-in 0.5s ease-out;
 }
 
+.domains-grid.creative-grid {
+    grid-template-columns: repeat(4, 1fr);
+}
+
 @keyframes fade-in {
     from {
         opacity: 0;
@@ -139,8 +143,16 @@
     width: 100%;
 }
 
+@media (max-width: 1024px) {
+    .domains-grid.creative-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
 @media (max-width: 768px) {
-    .domains-grid {
+
+    .domains-grid,
+    .domains-grid.creative-grid {
         grid-template-columns: 1fr;
     }
 }

@@ -9,16 +9,16 @@ const HeroSection = () => {
                 <div className="glow-orb orb-1"></div>
                 <div className="glow-orb orb-2"></div>
             </div>
- 
+
             <div className="container hero-container">
                 <div className="hero-content animate-fade-in-up">
-                    <div className="badge delay-1">
+                    <div className="badge delay-1 marquee-container">
                         <span className="badge-dot"></span>
-                        Recruitment Open
+                        <marquee scrollamount="5" className="hero-marquee">Recruitment are open for the Academic year 26 to 27</marquee>
                     </div>
 
                     <h1 className="hero-title delay-2">
-                        <span className="hero-title">Meta Developers Community</span>
+                        <span className="hero-title">Meta Developer Communities</span>
                     </h1>
 
                     <p className="hero-subtitle delay-3">

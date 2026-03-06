@@ -20,7 +20,7 @@ const AboutSection = () => {
                     <div className="about-content glass-panel">
                         <h3>Learning and Growing Together</h3>
                         <p>
-                            Meta Developers Community (MDC) is a student-run tech club focused on learning,
+                            Meta Developer Communities (MDC) is a student-run tech club focused on learning,
                             collaboration, and practical experience in development.
                         </p>
                         <p>
@@ -29,7 +29,7 @@ const AboutSection = () => {
                         </p>
                         <div className="about-stats">
                             <div className="stat">
-                                <span className="stat-value text-gradient">100+</span>
+                                <span className="stat-value text-gradient">40+</span>
                                 <span className="stat-label">Members</span>
                             </div>
                             <div className="stat">
@@ -37,7 +37,7 @@ const AboutSection = () => {
                                 <span className="stat-label">Events</span>
                             </div>
                             <div className="stat">
-                                <span className="stat-value text-gradient">5+</span>
+                                <span className="stat-value text-gradient">7</span>
                                 <span className="stat-label">Domains</span>
                             </div>
                         </div>

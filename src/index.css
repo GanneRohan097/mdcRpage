@@ -11,7 +11,7 @@
   --accent-glow: rgba(112, 150, 209, 0.4);
   --card-border: rgba(249, 252, 255, 0.08);
   --font-heading: 'Outfit', sans-serif;
-  --font-body: 'Inter', sans-serif;
+  --font-body: 'Outfit', sans-serif;
 
   --navbar-height: 80px;
 }
@@ -75,7 +75,7 @@ a {
 }
 
 .section {
-  padding: 6rem 0;
+  padding: 3rem 0;
   position: relative;
 }
 
@@ -89,7 +89,7 @@ a {
   color: var(--text-secondary);
   text-align: center;
   max-width: 600px;
-  margin: 0 auto 4rem;
+  margin: 0 auto 1.5rem;
   font-size: 1.125rem;
 }
 

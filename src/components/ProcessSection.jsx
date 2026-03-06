@@ -1,5 +1,5 @@
 import React from 'react';
-import { PencilLine, FileSearch, Mic, Award } from 'lucide-react';
+import { PencilLine, FileSearch, ClipboardList, Mic, Award } from 'lucide-react';
 import './ProcessSection.css';
 
 const ProcessSection = () => {
@@ -20,13 +20,20 @@ const ProcessSection = () => {
         },
         {
             id: 3,
-            title: "Interview / Task Evaluation",
-            desc: "Shortlisted candidates will face a brief casual interview or be given a small evaluation task depending on the domain.",
+            title: "Task Submission",
+            desc: "Shortlisted candidates will be given a small evaluation task depending on their chosen domain to showcase their skills.",
+            icon: <ClipboardList size={24} />,
+            color: "#7096D1" // Reuse Palette Blue
+        },
+        {
+            id: 4,
+            title: "Interview",
+            desc: "Candidates will face a brief casual interview to discuss their task, interests, and alignment with MDC.",
             icon: <Mic size={24} />,
             color: "#D0E3FF" // Palette Light Blue
         },
         {
-            id: 4,
+            id: 5,
             title: "Final Selection",
             desc: "Welcome to MDC! Selected candidates will receive an enthusiastic welcome email and an invite to our exclusive workspaces.",
             icon: <Award size={24} />,
