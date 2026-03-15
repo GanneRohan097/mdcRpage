@@ -1,6 +1,7 @@
 import React from 'react';
 import { MessageCircle } from 'lucide-react';
 import './WhatsAppSection.css';
+import { Mail, Github, Linkedin, Instagram, Twitter } from 'lucide-react';
 
 const ebMembers = [
     { role: "President", image: "https://ui-avatars.com/api/?name=Executive+1&background=random&color=fff" },
@@ -25,8 +26,13 @@ const WhatsAppSection = () => {
                         <div className="eb-carousel-track">
                             {duplicatedMembers.map((member, index) => (
                                 <div className="eb-card" key={index}>
-                                    <img src={member.image} alt={member.name} className="eb-image" />
+                                    <img src={"https://i.pinimg.com/736x/3f/94/70/3f9470b34a8e3f526dbdb022f9f19cf7.jpg"} alt={member.name} className="eb-image" />
                                     <p className="eb-role text-gradient">{member.role}</p>
+                                    <div className='Des'>
+                                        <Mail></Mail>
+                                        <p>mdc@gamil.com</p>
+                                    </div>
+                                   <p className='deslin'>Linkedin</p>
                                 </div>
                             ))}
                         </div>

@@ -24,7 +24,7 @@ const Footer = () => {
                     <div className="footer-socials">
                         <h4>Follow Us</h4>
                         <div className="social-icons">
-                            <a href="https://linkedin.com/company/mdc-vsp" className="social-icon" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+                            <a href="https://www.linkedin.com/company/meta-developer-communities/posts/?feedView=all" className="social-icon" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
                                 <Linkedin size={20} />
                             </a>
                             <a href="https://instagram.com/mdc_vsp" className="social-icon" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
