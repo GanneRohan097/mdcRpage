@@ -84,10 +84,10 @@
 }
 
 .hero-marquee {
-    flex-grow: 1;
-    display: inline-block;
-    vertical-align: middle;
-    line-height: normal;
+    width: 100%;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
     padding-top: 2px;
 }
 
