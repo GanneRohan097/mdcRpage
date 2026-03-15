@@ -14,7 +14,7 @@ const HeroSection = () => {
                 <div className="hero-content animate-fade-in-up">
                     <div className="badge delay-1 marquee-container">
                         <span className="badge-dot"></span>
-                        <marquee scrollamount="5" className="hero-marquee">Recruitment are open for the Academic year 26 to 27</marquee>
+                        <marquee scrollamount="6" className="hero-marquee">Recruitment are open for the Academic year 26 to 27</marquee>
                     </div>
 
                     <h1 className="hero-title delay-2">

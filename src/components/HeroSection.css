@@ -13,9 +13,9 @@
 }
 
 .glow-orb {
-    position: absolute;
+    position: fixed;
     border-radius: 50%;
-    filter: blur(110px);
+    filter: blur(120px);
     opacity: 0.5;
     animation: float 10s infinite alternate ease-in-out;
 }
@@ -55,8 +55,8 @@
     align-items: center;
     gap: 0.5rem;
     padding: 0.5rem 1rem;
-    background: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(240, 244, 255, 0.8);
     border-radius: 9999px;
     font-size: 0.875rem;
     font-weight: 500;
@@ -66,18 +66,20 @@
 }
 
 .badge-dot {
-    width: 8px;
-    height: 8px;
-    background-color: #7096D1;
+    width: 10px;
+    height: 10px;
+    background-color: #2563EB;
     border-radius: 50%;
-    box-shadow: 0 0 10px #7096D1;
-    animation: pulse 2s infinite;
+    box-shadow: 0 0 10px #2563EB;
+    animation: pulse 1s infinite;
     flex-shrink: 0;
 }
 
 .marquee-container {
     width: 100%;
     max-width: 400px;
+    border:1px solid;
+    background-color: rgb(251, 250, 253);
     overflow: hidden;
 }
 
@@ -119,15 +121,15 @@
 
 @keyframes pulse {
     0% {
-        box-shadow: 0 0 0 0 rgba(112, 150, 209, 0.4);
+        box-shadow: 0 0 0 0 rgba(37, 99, 235, 0.4);
     }
 
     70% {
-        box-shadow: 0 0 0 10px rgba(112, 150, 209, 0);
+        box-shadow: 0 0 0 10px rgba(37, 99, 235, 0);
     }
 
     100% {
-        box-shadow: 0 0 0 0 rgba(112, 150, 209, 0);
+        box-shadow: 0 0 0 0 rgba(37, 99, 235, 0);
     }
 }
 

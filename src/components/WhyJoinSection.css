@@ -10,7 +10,7 @@
     transform: translate(-50%, -50%);
     width: 80%;
     height: 80%;
-    background: radial-gradient(circle, rgba(112, 150, 209, 0.05) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(37, 99, 235, 0.05) 0%, transparent 70%);
     z-index: 0;
     pointer-events: none;
 }
@@ -49,8 +49,8 @@
 
 .benefit-card:hover {
     transform: translateY(-10px);
-    background: rgba(8, 31, 92, 0.5);
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 20px 40px rgba(5, 22, 61, 0.15);
 }
 
 .benefit-card:hover .benefit-glow {
@@ -61,7 +61,7 @@
     width: 70px;
     height: 70px;
     border-radius: 50%;
-    background: rgba(255, 255, 255, 0.03);
+    background: rgba(255, 255, 255, 1);
     border: 1px solid var(--card-border);
     display: flex;
     align-items: center;

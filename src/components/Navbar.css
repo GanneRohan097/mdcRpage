@@ -11,11 +11,11 @@
 }
 
 .navbar.scrolled {
-    background: rgba(8, 31, 92, 0.8);
+    background: rgba(255, 255, 255, 0.95);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
     border-bottom: 1px solid var(--card-border);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 30px rgba(37, 99, 235, 0.1);
 }
 
 .nav-container {
@@ -87,7 +87,7 @@
     top: var(--navbar-height);
     left: 0;
     width: 100%;
-    background: rgba(8, 31, 92, 0.95);
+    background: rgba(255, 255, 255, 0.95);
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
     border-bottom: 1px solid var(--card-border);

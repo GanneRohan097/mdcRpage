@@ -9,35 +9,35 @@ const ProcessSection = () => {
             title: "Application Submission",
             desc: "Fill out the Google form for your chosen domain. Share your details, past experience (if any), and why you want to join.",
             icon: <PencilLine size={24} />,
-            color: "#7096D1" // Palette Blue
+            color: "#05349a" // Primary Blue
         },
         {
             id: 2,
             title: "Shortlisting",
             desc: "Our team will review your application. We look for passion, eagerness to learn, and alignment with our community values.",
             icon: <FileSearch size={24} />,
-            color: "#334EAC" // Palette Dark Blue
+            color: "#05349a" // Dark Blue
         },
         {
             id: 3,
             title: "Task Submission",
             desc: "Shortlisted candidates will be given a small evaluation task depending on their chosen domain to showcase their skills.",
             icon: <ClipboardList size={24} />,
-            color: "#7096D1" // Reuse Palette Blue
+            color: "#05349a" // Vibrant Blue
         },
         {
             id: 4,
             title: "Interview",
             desc: "Candidates will face a brief casual interview to discuss their task, interests, and alignment with MDC.",
             icon: <Mic size={24} />,
-            color: "#D0E3FF" // Palette Light Blue
+            color: "#05349a" // Primary Blue
         },
         {
             id: 5,
             title: "Final Selection",
             desc: "Welcome to MDC! Selected candidates will receive an enthusiastic welcome email and an invite to our exclusive workspaces.",
             icon: <Award size={24} />,
-            color: "#E7F1FF" // Palette Very Light Blue
+            color: "#05349a" // Slightly darker blue
         }
     ];
 
