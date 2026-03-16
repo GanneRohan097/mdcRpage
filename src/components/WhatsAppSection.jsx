@@ -1,15 +1,21 @@
 import React from 'react';
-import { MessageCircle } from 'lucide-react';
+import { MessageCircle, Mail, Linkedin } from 'lucide-react';
 import './WhatsAppSection.css';
-import { Mail, Github, Linkedin, Instagram, Twitter } from 'lucide-react';
+
+import ISHITA from '../assets/ISHITA.jpg';
+import GAGAN from '../assets/GAGAN.jpg';
+import NITISH from '../assets/NITISH.jpeg';
+import NANDAN from '../assets/NANDAN.jpg';
+import SRAVANI from '../assets/SRAVANI.jpg';
+import SNEHAL from '../assets/SNEHAL.jpg';
 
 const ebMembers = [
-    { role: "President", image: "https://ui-avatars.com/api/?name=Executive+1&background=random&color=fff" },
-    { role: "Vice President", image: "https://ui-avatars.com/api/?name=Executive+2&background=random&color=fff" },
-    { role: "Technical Head", image: "https://ui-avatars.com/api/?name=Executive+3&background=random&color=fff" },
-    { role: "Creative Head", image: "https://ui-avatars.com/api/?name=Executive+4&background=random&color=fff" },
-    { role: "Secretary", image: "https://ui-avatars.com/api/?name=Executive+5&background=random&color=fff" },
-    { role: "Head of Operations", image: "https://ui-avatars.com/api/?name=Executive+6&background=random&color=fff" }
+    { name:"Nitish Raj Vinnakota", role: "President", image: NITISH },
+    {name:"Gagan Rachakonda",  role: "Vice President", image: GAGAN },
+    { name:"Ishita Gupta",  role: "Technical Head", image: ISHITA },
+    { name:"Sravani Kalisetty",  role: "Creative Head", image: SRAVANI },
+    { name:"Snehal Andavarapu",  role: "Secretary", image: SNEHAL },
+    { name:"Jothisk Nandan Palla",  role: "Head of Operations", image: NANDAN }
 ];
 
 const duplicatedMembers = [...ebMembers, ...ebMembers];
@@ -18,21 +24,40 @@ const WhatsAppSection = () => {
     return (
         <section id="contact" className="section wa-section">
             <div className="container">
-                <h2 className="section-title text-center text-gradient">Contact Us</h2>
-                <p className="section-subtitle">Meet our Executive Board</p>
+
+                <h2 className="section-title text-center text-gradient">
+                    Contact Us
+                </h2>
+
+                <p className="section-subtitle">
+                    Meet our Executive Board
+                </p>
 
                 <div className="carousel-wrapper">
                     <div className="eb-carousel">
                         <div className="eb-carousel-track">
                             {duplicatedMembers.map((member, index) => (
                                 <div className="eb-card" key={index}>
-                                    <img src={"https://i.pinimg.com/736x/3f/94/70/3f9470b34a8e3f526dbdb022f9f19cf7.jpg"} alt={member.name} className="eb-image" />
-                                    <p className="eb-role text-gradient">{member.role}</p>
-                                    <div className='Des'>
-                                        <Mail></Mail>
-                                        <p>mdc@gamil.com</p>
+
+                                    <div className="eb-img-wrapper">
+                                        <img src={member.image} alt={member.role} />
                                     </div>
-                                   <p className='deslin'>Linkedin</p>
+                                    <p className='ebname'>
+                                        {member.name}
+                                    </p>
+                                    <p className="eb-role text-gradient">
+                                        {member.role}
+                                    </p>
+
+                                    <div className="Des">
+                                        <Mail size={16}/>
+                                        <p>mdc@gmail.com</p>
+                                    </div>
+
+                                    <a className="deslin" href="#">
+                                        <Linkedin size={16}/> LinkedIn
+                                    </a>
+
                                 </div>
                             ))}
                         </div>
@@ -41,12 +66,15 @@ const WhatsAppSection = () => {
 
                 <div className="wa-card glass-panel text-center mt-4">
                     <div className="wa-icon-wrapper animate-float">
-                        <MessageCircle size={48} />
+                        <MessageCircle size={48}/>
                     </div>
 
-                    <h3 className="wa-title">Join our WhatsApp Group</h3>
+                    <h3 className="wa-title">
+                        Join our WhatsApp Group
+                    </h3>
+
                     <p className="wa-desc">
-                        Get instant updates, ask questions, and interact with the MDC core team.
+                        Get instant updates, ask questions and interact with the MDC core team.
                     </p>
 
                     <a
@@ -55,9 +83,10 @@ const WhatsAppSection = () => {
                         rel="noopener noreferrer"
                         className="btn btn-primary wa-btn"
                     >
-                        <MessageCircle size={20} /> Join WhatsApp Group
+                        <MessageCircle size={20}/> Join WhatsApp Group
                     </a>
                 </div>
+
             </div>
         </section>
     );

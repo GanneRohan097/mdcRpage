@@ -8,6 +8,9 @@
     margin: 0 auto;
     padding: 2rem 0;
 }
+#box{
+    background-color: rgb(237, 238, 248);
+}
 
 .timeline-line {
     position: absolute;

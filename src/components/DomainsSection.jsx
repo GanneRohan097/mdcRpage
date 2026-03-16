@@ -11,7 +11,7 @@ const domainsData = {
             formUrl: "https://docs.google.com/forms/d/placeholder-web"
         },
         {
-            title: "Data Verse",
+            title: "DataVerse",
             desc: "Explore basics of data analysis and machine learning.",
             skills: ["Python", "Pandas", "NumPy", "Machine Learning"],
             formUrl: "https://docs.google.com/forms/d/placeholder-ai"
@@ -27,7 +27,7 @@ const domainsData = {
         {
             title: "Design",
             desc: "Create user-friendly designs and interfaces.",
-            skills: ["Figma", "UI Design", "Wireframing"],
+            skills: ["Figma", "UI Design", "Canva"],
             formUrl: "https://docs.google.com/forms/d/placeholder-design"
         },
         {
@@ -45,7 +45,7 @@ const domainsData = {
         {
             title: "Photography",
             desc: "Capture and edit photos for events and promotions.",
-            skills: ["Photography", "Editing", "Visual Storytelling"],
+            skills: ["Photography", "Editing", "Video Editing"],
             formUrl: "https://docs.google.com/forms/d/placeholder-photo"
         }
     ],

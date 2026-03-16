@@ -5,8 +5,8 @@ import './AboutSection.css';
 const AboutSection = () => {
     const activities = [
         { icon: <Terminal size={24} />, title: "Hackathons", desc: "Team-based coding events focused on problem solving." },
-        { icon: <Users size={24} />, title: "Tech Talks", desc: "Sessions with seniors, alumni, and professionals." },
-        { icon: <Code size={24} />, title: "Workshops", desc: "Practical learning on web, programming, and tools." },
+        { icon: <Users size={24} />, title: "Tech Talks", desc: "Sessions with seniors, alumni and professionals." },
+        { icon: <Code size={24} />, title: "Workshops", desc: "Practical learning on web, programming and tools." },
         { icon: <Cpu size={24} />, title: "Projects", desc: "Building small projects and contributing together." }
     ];
 
@@ -21,7 +21,7 @@ const AboutSection = () => {
                         <h3>Learning and Growing Together</h3>
                         <p>
                             Meta Developer Communities (MDC) is a student-run tech club focused on learning,
-                            collaboration, and practical experience in development.
+                            collaboration and practical experience in development.
                         </p>
                         <p>
                             We welcome beginners and experienced students alike. MDC is a place to learn,

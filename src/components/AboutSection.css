@@ -4,6 +4,9 @@
     gap: 3rem;
     align-items: center;
 }
+#about{
+    margin-top: -7%;
+}
 
 .about-content {
     padding: 3rem;

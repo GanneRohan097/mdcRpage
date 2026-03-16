@@ -29,7 +29,7 @@ const HeroSection = () => {
                     </h1>
 
                     <p className="hero-subtitle delay-3">
-                        A student-led tech club for learning, building projects,
+                        A student-led tech club for learning, building projects
                         and growing together.
                     </p>
 

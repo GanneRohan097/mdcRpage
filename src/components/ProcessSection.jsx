@@ -52,7 +52,7 @@ const ProcessSection = () => {
 
                     {steps.map((step, index) => (
                         <div className={`timeline-item ${index % 2 === 0 ? 'left' : 'right'}`} key={step.id}>
-                            <div className="timeline-content glass-panel">
+                            <div id='box' className="timeline-content glass-panel">
                                 <div
                                     className="step-number"
                                     style={{ background: step.color, boxShadow: `0 0 20px ${step.color}66` }}
