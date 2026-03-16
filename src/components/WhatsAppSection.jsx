@@ -5,7 +5,7 @@ import './WhatsAppSection.css';
 import ISHITA from '../assets/ISHITA.jpg';
 import GAGAN from '../assets/GAGAN.jpg';
 import NITISH from '../assets/NITISH.jpeg';
-import NANDAN from '../assets/NANDAN.jpg';
+import NANDAN from '../assets/NANDAN.JPG';
 import SRAVANI from '../assets/SRAVANI.jpg';
 import SNEHAL from '../assets/SNEHAL.jpg';
 
