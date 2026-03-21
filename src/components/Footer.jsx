@@ -13,24 +13,36 @@ const Footer = () => {
                             Meta Developer Communities. Building the future, one line of code at a time.
                         </p>
                     </div>
-
+                    <div>
+                        <h4>
+                            Quick links
+                        </h4>
+                        <div className='quicklinks'>
+                            <p><a href="#about">About</a></p>
+                            <p><a href='#why-join'>Why Join</a></p>
+                            <p><a href='#domains'>Domains</a></p>
+                            <p><a href='#process'>Process</a></p>
+                            <p>
+                            <a href='#domains'>Apply Now</a>
+                            </p>
+                        </div>
+                    </div>
                     <div className="footer-contact">
                         <h4>Contact Us</h4>
                         <a href="mailto:mdc_vsp@gitam.in" className="contact-link">
                             <Mail size={18} /> mdc_vsp@gitam.in
                         </a>
-                    </div>
-
                     <div className="footer-socials">
                         <h4>Follow Us</h4>
                         <div className="social-icons">
                             <a href="https://www.linkedin.com/company/meta-developer-communities/posts/?feedView=all" className="social-icon" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
                                 <Linkedin size={20} />
                             </a>
-                            <a href="https://instagram.com/mdc_vsp" className="social-icon" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+                            <a href="https://www.instagram.com/mdc_gitam/" className="social-icon" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
                                 <Instagram size={20} />
                             </a>
                         </div>
+                    </div>
                     </div>
                 </div>
 

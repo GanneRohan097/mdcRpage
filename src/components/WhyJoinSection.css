@@ -1,6 +1,9 @@
 .why-join-section {
     position: relative;
 }
+#why-join{
+    scroll-margin-top: 50px;
+}
 
 .why-join-section::before {
     content: '';

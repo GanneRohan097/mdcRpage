@@ -94,3 +94,10 @@
         justify-content: center;
     }
 }
+
+.footer-socials{
+    margin-top: 10px;
+}
+.quicklinks p:hover{
+    color: blue;
+}

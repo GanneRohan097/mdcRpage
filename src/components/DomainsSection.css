@@ -10,6 +10,9 @@
     margin-bottom: 3rem;
     flex-wrap: wrap;
 }
+#domains{
+   scroll-margin-top: 50px;
+}
 
 .tab-btn {
     display: flex;
